@@ -89,8 +89,8 @@
                 <groupId>com.ly.train</groupId>
                 <artifactId>flower.bom</artifactId>
                 <version>1.0.0</version>
-                <scope>import</scope>
                 <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -279,21 +279,6 @@
                     </formats>
                     <check />
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.googlecode.maven-java-formatter-plugin</groupId>
-                <artifactId>maven-java-formatter-plugin</artifactId>
-                <configuration>
-                    <configFile>${user.dir}/conf/FlowerFormatter.xml</configFile>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>format</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
             <plugin>
                 <groupId>com.github.ekryd.sortpom</groupId>

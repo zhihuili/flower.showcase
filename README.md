@@ -1,6 +1,6 @@
 # flower.showcase
 
-flower示例集合。
+[flower](http://github.com/zhihuili/flower)示例集合。
 
 ## 模块说明
 ### flower.showcase.service

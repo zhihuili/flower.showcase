@@ -2,7 +2,6 @@
 
 [flower](http://github.com/zhihuili/flower)示例集合。
 
-## 模块说明
 ### flower.showcase.service
 定义基本服务，编排flow流程的基础处理单元。
 

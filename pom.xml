@@ -26,6 +26,7 @@
         <module>flower.showcase.http.async</module>
         <module>flower.showcase.service</module>
         <module>flower.showcase.simple</module>
+        <module>flower.showcase.springboot</module>
     </modules>
 
     <properties>

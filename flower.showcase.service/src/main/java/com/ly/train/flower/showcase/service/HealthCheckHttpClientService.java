@@ -33,7 +33,7 @@ public class HealthCheckHttpClientService extends AbstractService<HttpAsyncReq, 
   public CompletableFuture<String> doProcess(HttpAsyncReq message, ServiceContext context) throws Throwable {
 
     RequestContext requestContext = new RequestContext("http://10.100.216.147:12051/flowerdsfasync/demo/get");
-    return HttpFactory.httpClientFactory.get(requestContext);
+    return HttpFactory.httpAsyncClientFactory.get(requestContext);
   }
 
 }
